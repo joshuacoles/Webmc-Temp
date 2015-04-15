@@ -1,0 +1,3 @@
+moduleName=Webmc
+moduleVersion=@info.app.version@
+extensionClasses=org.joshuacoles.webmc.meta.ReflectionExtension
