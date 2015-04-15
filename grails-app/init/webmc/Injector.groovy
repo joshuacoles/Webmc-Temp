@@ -68,7 +68,7 @@ class Injector {
         final Map<Class, Map<String, Object>> byTypeWithName = map(byType, {
             it.key
         }, { Map.Entry<Class, Field> entry -> [entry.value.name, entry.value.get(entry.value.declaringClass) }, new NonOverridableHashMap()) as Map<Class, Map<String, Object>>
-        
+
     }
 
     private static boolean leq(List<String> a, List<String> b) {
