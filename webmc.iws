@@ -91,25 +91,45 @@
           <file leaf-file-name="Injector.groovy" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/grails-app/init/webmc/Injector.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.35164836">
-                  <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.65217394">
+                  <caret line="42" column="54" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
                   <folding>
-                    <element signature="e#15#65#0" expanded="true" />
-                    <element signature="n#!!block;n#inject#0;n#!!block;n#Injector#0" expanded="false" />
-                    <element signature="n#!!block;n#injectEnumPopulates#0;n#!!block;n#Injector#0" expanded="false" />
+                    <element signature="e#15#52#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Globals.groovy" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/Globals.groovy">
+          <file leaf-file-name="Field.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/reflect/Field.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-26.666666">
+                  <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Populator.groovy" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/meta/Populator.groovy">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+                  <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
                   <folding>
-                    <marker date="1429165129000" expanded="true" signature="109:339" placeholder="..." />
+                    <element signature="e#36#73#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BootStrap.groovy" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/init/BootStrap.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -148,42 +168,9 @@
             <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/QDifficult.groovy">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_Difficulty.groovy" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/_Difficulty.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Difficulty.java" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/23518f3c147c2d2e0fae40a5e3c2e920fe6ca8c0/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/world/difficulty/Difficulty.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+                  <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
                   <folding>
-                    <element signature="e#0#1564#0" expanded="false" />
-                    <element signature="imports" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EnumPopulates.groovy" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/meta/EnumPopulates.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#36#67#0" expanded="true" />
+                    <element signature="e#38#71#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -196,11 +183,88 @@
           <file leaf-file-name="Globals.groovy" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/Globals.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3956044">
-                  <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+                <state vertical-scroll-proportion="0.31707317">
+                  <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
                   <folding>
                     <element signature="e#31#70#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ReflectionUtils.java" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.9-RC1/654dcaafdb84f03858bb69bbe031f0325bb49065/reflections-0.9.9-RC1-sources.jar!/org/reflections/ReflectionUtils.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="338" column="0" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#15140#15141#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AbstractIterator.java" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/collect/AbstractIterator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Collections2.java" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/collect/Collections2.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#6608#6609#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Iterators.java" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/collect/Iterators.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="651" column="0" selection-start-line="651" selection-start-column="0" selection-end-line="651" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Predicates.java" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/base/Predicates.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="358" column="0" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#1881#1882#0" expanded="true" />
+                    <element signature="e#1944#1945#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Preconditions.java" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/base/Preconditions.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Class.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Class.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-5.851852">
+                  <caret line="1311" column="0" selection-start-line="1307" selection-start-column="0" selection-end-line="1311" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -1010,17 +1074,17 @@
         <option value="$PROJECT_DIR$/grails-app/domain/org/joshuacoles/webmc/World.groovy" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule" />
         <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/meta/ReflectionExtension.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/QDifficult.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/SAd.aj" />
         <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/meta/Populator.groovy" />
         <option value="$PROJECT_DIR$/grails-app/init/webmc/SpongeInjector.groovy" />
         <option value="$PROJECT_DIR$/grails-app/init/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/meta/EnumPopulates.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/_Difficulty.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/NonOverridableHashMap.groovy" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/grails-app/init/webmc/Injector.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/_Difficulty.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/QDifficult.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/Globals.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/init/webmc/Injector.groovy" />
       </list>
     </option>
   </component>
@@ -1176,6 +1240,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webmc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sponge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1777,16 +1871,16 @@
       <workItem from="1428909662420" duration="2608000" />
       <workItem from="1428913451711" duration="4099000" />
       <workItem from="1428924815237" duration="22409000" />
-      <workItem from="1428998986786" duration="33987000" />
+      <workItem from="1428998986786" duration="38768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63103000" />
+    <option name="totallyTimeSpent" value="67884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1801,13 +1895,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995309" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39913854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3029433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3029433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950467" sideWeight="0.4921875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1880,7 +1974,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1889,60 +1983,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/734d76ea3f49c696e887a1a8da2d39cb84d51fd1/groovy-2.4.3-sources.jar!/groovy/transform/TypeCheckingMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21712907">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/Sponge.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09047045">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/meta/ReflectionExtension.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10856453">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/init/webmc/Application.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.9-RC1/654dcaafdb84f03858bb69bbe031f0325bb49065/reflections-0.9.9-RC1-sources.jar!/org/reflections/util/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.3/f4915df0360e7529c61f9e78ef3a06c19238e62e/logback-classic-1.1.3-sources.jar!/org/slf4j/impl/StaticLoggerBinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2075,33 +2115,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/base/Predicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60453403">
-          <caret line="416" column="33" selection-start-line="416" selection-start-column="33" selection-end-line="416" selection-end-column="33" />
-          <folding>
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/734d76ea3f49c696e887a1a8da2d39cb84d51fd1/groovy-2.4.3-sources.jar!/groovy/lang/GString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37801206">
           <caret line="151" column="13" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Class.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.38855422">
-          <caret line="1322" column="15" selection-start-line="1322" selection-start-column="15" selection-end-line="1322" selection-end-column="15" />
-          <folding>
-            <element signature="e#44010#44011#0" expanded="true" />
-            <element signature="e#44092#44093#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2137,16 +2155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/meta/Populator.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34562212">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#36#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/reflect/Modifier.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.516129">
@@ -2158,48 +2166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/734d76ea3f49c696e887a1a8da2d39cb84d51fd1/groovy-2.4.3-sources.jar!/groovy/lang/Closure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="461" column="18" selection-start-line="461" selection-start-column="18" selection-end-line="461" selection-end-column="18" />
-          <folding>
-            <element signature="e#16277#16278#0" expanded="false" />
-            <element signature="e#16313#16314#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/init/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03311258">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/23518f3c147c2d2e0fae40a5e3c2e920fe6ca8c0/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/world/difficulty/Difficulties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#1636#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/23518f3c147c2d2e0fae40a5e3c2e920fe6ca8c0/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/world/difficulty/Difficulty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#1564#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/meta/EnumPopulates.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2207,22 +2173,6 @@
           <folding>
             <element signature="e#36#67#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/_Difficulty.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/QDifficult.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2258,22 +2208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="366" column="15" selection-start-line="366" selection-start-column="15" selection-end-line="366" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/734d76ea3f49c696e887a1a8da2d39cb84d51fd1/groovy-2.4.3-sources.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="265" column="7" selection-start-line="265" selection-start-column="7" selection-end-line="265" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/util/HashMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.16335541">
@@ -2301,14 +2235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/reflect/Field.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09933775">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2317,32 +2243,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.9-RC1/654dcaafdb84f03858bb69bbe031f0325bb49065/reflections-0.9.9-RC1-sources.jar!/org/reflections/ReflectionUtils.java">
+    <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Class.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="335" column="50" selection-start-line="335" selection-start-column="50" selection-end-line="335" selection-end-column="50" />
+        <state vertical-scroll-proportion="-5.851852">
+          <caret line="1311" column="0" selection-start-line="1307" selection-start-column="0" selection-end-line="1311" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/init/webmc/Injector.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/init/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35164836">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="366" column="15" selection-start-line="366" selection-start-column="15" selection-end-line="366" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/meta/Populator.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
-            <element signature="e#15#65#0" expanded="true" />
-            <element signature="n#!!block;n#inject#0;n#!!block;n#Injector#0" expanded="false" />
-            <element signature="n#!!block;n#injectEnumPopulates#0;n#!!block;n#Injector#0" expanded="false" />
+            <element signature="e#36#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/23518f3c147c2d2e0fae40a5e3c2e920fe6ca8c0/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/world/difficulty/Difficulties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14316013">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/1.1-SNAPSHOT/23518f3c147c2d2e0fae40a5e3c2e920fe6ca8c0/spongeapi-1.1-SNAPSHOT-sources.jar!/org/spongepowered/api/world/difficulty/Difficulty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15906681">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/_Difficulty.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12725344">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#38#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/sponge/QDifficult.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding>
+            <element signature="e#38#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/CallerSensitive.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12725344">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../bin/jre-8/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/reflect/Field.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.666666">
+          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/collect/Collections2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding>
+            <element signature="e#6608#6609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/base/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/collect/AbstractIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/collect/Iterators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="651" column="0" selection-start-line="651" selection-start-column="0" selection-end-line="651" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/base/Predicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="358" column="0" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+          <folding>
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.9-RC1/654dcaafdb84f03858bb69bbe031f0325bb49065/reflections-0.9.9-RC1-sources.jar!/org/reflections/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="338" column="0" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+          <folding>
+            <element signature="e#15140#15141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/org/joshuacoles/webmc/Globals.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3956044">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.31707317">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="e#31#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/734d76ea3f49c696e887a1a8da2d39cb84d51fd1/groovy-2.4.3-sources.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65111345">
+          <caret line="3897" column="43" selection-start-line="3897" selection-start-column="34" selection-end-line="3897" selection-end-column="43" />
+          <folding>
+            <element signature="e#474539#474540#0" expanded="true" />
+            <element signature="e#474609#474610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/734d76ea3f49c696e887a1a8da2d39cb84d51fd1/groovy-2.4.3-sources.jar!/groovy/lang/Closure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33297986">
+          <caret line="200" column="38" selection-start-line="200" selection-start-column="38" selection-end-line="200" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/734d76ea3f49c696e887a1a8da2d39cb84d51fd1/groovy-2.4.3-sources.jar!/groovy/transform/TypeCheckingMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19088016">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/734d76ea3f49c696e887a1a8da2d39cb84d51fd1/groovy-2.4.3-sources.jar!/groovy/transform/CompileStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4931071">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/init/webmc/Injector.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65217394">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#52#0" expanded="true" />
           </folding>
         </state>
       </provider>

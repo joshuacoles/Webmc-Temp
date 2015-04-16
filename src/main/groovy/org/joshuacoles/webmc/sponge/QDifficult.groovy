@@ -11,7 +11,7 @@ class QDifficult implements Difficulty {
     public static final Difficulty EASY = QDifficult("EASY", "EASY")
     public static final Difficulty NORMAL = QDifficult("NORMAL", "NORMAL")
     public static final Difficulty HARD = QDifficult("HARD", "HARD")
-    public static final Difficulty PEACEFULL = QDifficult("PEACEFULL", "PEACEFULL")
+    public static final Difficulty PEACEFUL = QDifficult("PEACEFUL", "PEACEFUL")
 
     String id,
            name = id

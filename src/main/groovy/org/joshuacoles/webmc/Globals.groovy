@@ -10,14 +10,14 @@ import java.lang.reflect.Field
 
 import static java.lang.reflect.Modifier.*
 import static org.reflections.ReflectionUtils.*
-§
+
 @CompileStatic
 class Globals {
     static class General {
         static final Closure clDelegate = { it }
 
-        static Set set(final collection, final Closure mutator) {
-            (collection.inject(new HashSet()) { result, curr -> mutator(result, curr); result }) as Set
+        static <T> Set<T> set(final collection, final Closure<T> mutator) {
+            (collection.inject(new HashSet()) { Set result, curr -> result << mutator(curr); result }) as Set
         }
 
         static boolean eq(final thing, final Object... tests) { tests.every { it == thing } }
@@ -58,7 +58,7 @@ class Globals {
         static final Predicate<Field> PSF = modifier(PUBLIC, STATIC, FINAL)
 
         static <T extends Annotation> T annotation(final Class subject, final Class<T> annotation) {
-            subject.getAnnotation(annotation)
+            (T) subject.getAnnotation(annotation)
         }
 
         static void nonFinal(final Field field) {

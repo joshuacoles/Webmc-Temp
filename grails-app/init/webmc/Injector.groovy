@@ -1,6 +1,7 @@
 package webmc
 
-import org.joshuacoles.webmc.NonOverridableHashMap
+import groovy.transform.CompileStatic
+import groovy.transform.TypeCheckingMode
 import org.joshuacoles.webmc.meta.EnumPopulates
 import org.joshuacoles.webmc.meta.Populator
 import org.spongepowered.api.CatalogType
@@ -11,13 +12,23 @@ import java.lang.reflect.Field
 import static org.joshuacoles.webmc.Globals.General.*
 import static org.joshuacoles.webmc.Globals.Reflection.*
 
+/**
+ * Handles all injection done by the {@code EnumPopulates} and the {@code Populator} annotations.
+ * */
 class Injector {
+
+    /**
+     * Entry point for injection. To be called when values are required to be injected
+     * */
     static inject() {
         injectEnumPopulates()
         injectPopulator()
     }
 
-    //todo is this entire thing needed
+    /**
+     * Injects the {@code EnumPopulates} annotation.
+     * */
+    @CompileStatic(TypeCheckingMode.SKIP)
     private static injectEnumPopulates() {
         final annotated = annotated(EnumPopulates)
 
@@ -45,19 +56,33 @@ class Injector {
         }
     }
 
+    /**
+     * Injects the {@code Populator} annotation.
+     * */
+    @CompileStatic
     private static injectPopulator() {
         final populators = annotated(Populator)
+
+        if (populators?.isEmpty()) return
 
         final populatingFields = populators.keySet().collect {
             fields(it, PSF, interfaces(CatalogType))
         }.sum() as Set<Field>
 
-        final byType = fieldsByType(populatingFields)
-        final types = byType.keySet()
-        final catalogsByType = types.collect { it.getAnnotation(CatalogedBy).value() }
-        final Map<Class, Map<String, Object>> byTypeWithName = map(byType, {
-            it.key
-        }, { Map.Entry<Class, Field> entry -> [entry.value.name, entry.value.get(entry.value.declaringClass)] }, new NonOverridableHashMap()) as Map<Class, Map<String, Object>>
+        if (populatingFields?.empty) return
 
+        final catalogsByType = map(fieldsByType(populatingFields).keySet(), clDelegate, { Class it ->
+            annotation(it, CatalogedBy).value()
+        }) as Map<Class, Class[]>
+
+        fieldsByType(populatingFields).each { consideredType, knownFields ->
+            final catalogFields = set(catalogsByType[consideredType].toList(), { Class clazz -> fields(clazz, PSF, type(consideredType)) }).sum() as Set<Field>
+            knownFields.each { popField ->
+                println popField.name
+                final field = (catalogFields.find { it.name == popField.name })
+                nonFinal(field)
+                field.set(field.declaringClass, popField.get(popField.declaringClass))
+            }
+        }
     }
 }
