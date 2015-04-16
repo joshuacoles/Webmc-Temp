@@ -1,4 +1,4 @@
-package webmc
+package org.joshuacoles.injector
 
 import groovy.transform.CompileStatic
 import org.joshuacoles.webmc.meta.EnumPopulates
@@ -8,15 +8,14 @@ import org.spongepowered.api.util.annotation.CatalogedBy
 
 import java.lang.reflect.Field
 
-import static org.joshuacoles.webmc.Globals.General.*
-import static org.joshuacoles.webmc.Globals.Reflection.*
+import static org.joshuacoles.injector.Globals.General.*
+import static org.joshuacoles.injector.Globals.Reflection.*
 
 /**
  * Handles all injection done by the {@code EnumPopulates} and the {@code Populator} annotations.
  * */
 @CompileStatic
 class Injector {
-
     /**
      * Entry point for injection. To be called when values are required to be injected
      * */
@@ -39,7 +38,7 @@ class Injector {
             assert endType != EnumPopulates._
 
             final populatingFields = map((clazz.getDeclaredMethod("values", new Class[0]).invoke(clazz, new Object[0])) as Collection<Enum>, { Enum it -> it.name() }, clDelegate(Enum)) as Map<String, Enum> //todo FIX THIS WITH COMPILE STATIC
-            final catalogFields = fields(target, PSF, type(endType))
+            final catalogFields = fields(target, Globals.Reflection.PSF, type(endType))
 
             ensure !catalogFields.empty, "Does the $target have the required PSF fields of the type $endType?"
 

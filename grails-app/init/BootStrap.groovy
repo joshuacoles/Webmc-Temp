@@ -1,11 +1,9 @@
-import org.spongepowered.api.world.difficulty.Difficulties
-import webmc.Injector
+import org.joshuacoles.injector.Injector
 
 class BootStrap {
 
     def init = { servletContext ->
         Injector.inject()
-        println Difficulties.EASY
     }
 
     def destroy = {
