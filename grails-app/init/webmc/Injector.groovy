@@ -38,15 +38,13 @@ class Injector {
 
             assert endType != EnumPopulates._
 
-//            noinspection GrUnresolvedAccess
-            final populatingFields = map((clazz.getDeclaredMethod("values").invoke(null, null)) as Collection<Enum>, { Enum it -> it.name() }, clDelegate(Enum)) as Map<String, Enum> //todo FIX THIS WITH COMPILE STATIC
+            final populatingFields = map((clazz.getDeclaredMethod("values", new Class[0]).invoke(clazz, new Object[0])) as Collection<Enum>, { Enum it -> it.name() }, clDelegate(Enum)) as Map<String, Enum> //todo FIX THIS WITH COMPILE STATIC
             final catalogFields = fields(target, PSF, type(endType))
 
             ensure !catalogFields.empty, "Does the $target have the required PSF fields of the type $endType?"
 
-            ensure(catalogFields.name.toSet() == populatingFields.keySet(),
-                    "The members of the $clazz must match up by name with those of the taget class $target." +
-                            " CF${catalogFields.name.toSet()} PF${populatingFields.keySet()}")
+            ensure(catalogFields*.name.toSet() == populatingFields.keySet(),
+                    "The members of the $clazz must match up by name with those of the taget class $target.")
 
             for (catalogField in catalogFields) {
                 nonFinal(catalogField)
