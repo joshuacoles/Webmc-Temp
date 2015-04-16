@@ -4,15 +4,12 @@ import org.aspectj.weaver.World
 
 class Server {
 
-//    String name
-//
-//    int port
-//
-//    boolean online
-//
-//    String pathToRoot, _core
-//
-//    static hasMany = [worlds: World, plugins: String]
+    String name
+    int port
+    boolean online
+    String pathToRoot, _core
+
+    static hasMany = [plugins: String]
 
     static constraints = {
     }

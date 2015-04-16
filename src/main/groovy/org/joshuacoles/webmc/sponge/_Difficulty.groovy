@@ -5,8 +5,7 @@ import org.joshuacoles.webmc.meta.Populator
 import org.spongepowered.api.world.difficulty.Difficulties
 import org.spongepowered.api.world.difficulty.Difficulty
 
-//@EnumPopulates(Difficulties)
-//@Populator
+@EnumPopulates(Difficulties)
 enum _Difficulty implements Difficulty {
     PEACEFUL,
     EASY,
