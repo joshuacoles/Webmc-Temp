@@ -1,7 +1,6 @@
 package webmc
 
 import groovy.transform.CompileStatic
-import groovy.transform.TypeCheckingMode
 import org.joshuacoles.webmc.meta.EnumPopulates
 import org.joshuacoles.webmc.meta.Populator
 import org.spongepowered.api.CatalogType
@@ -15,6 +14,7 @@ import static org.joshuacoles.webmc.Globals.Reflection.*
 /**
  * Handles all injection done by the {@code EnumPopulates} and the {@code Populator} annotations.
  * */
+@CompileStatic
 class Injector {
 
     /**
@@ -28,7 +28,6 @@ class Injector {
     /**
      * Injects the {@code EnumPopulates} annotation.
      * */
-    @CompileStatic(TypeCheckingMode.SKIP)
     private static injectEnumPopulates() {
         final annotated = annotated(EnumPopulates)
 
@@ -40,7 +39,7 @@ class Injector {
             assert endType != EnumPopulates._
 
 //            noinspection GrUnresolvedAccess
-            final populatingFields = map((clazz as Class<Enum>).values() as Collection<Enum>, { Enum it -> it.name() }, clDelegate(Enum)) as Map<String, Enum>
+            final populatingFields = map((clazz.getDeclaredMethod("values").invoke(null, null)) as Collection<Enum>, { Enum it -> it.name() }, clDelegate(Enum)) as Map<String, Enum> //todo FIX THIS WITH COMPILE STATIC
             final catalogFields = fields(target, PSF, type(endType))
 
             ensure !catalogFields.empty, "Does the $target have the required PSF fields of the type $endType?"
@@ -59,7 +58,6 @@ class Injector {
     /**
      * Injects the {@code Populator} annotation.
      * */
-    @CompileStatic
     private static injectPopulator() {
         final populators = annotated(Populator)
 

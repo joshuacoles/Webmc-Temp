@@ -12,6 +12,7 @@ import static java.lang.reflect.Modifier.*
 import static org.reflections.ReflectionUtils.*
 
 @CompileStatic
+@SuppressWarnings("GroovyUnusedDeclaration")
 class Globals {
     static class General {
         static final Closure clDelegate = { it }
